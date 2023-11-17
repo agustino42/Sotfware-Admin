@@ -44,7 +44,7 @@ export const MobileSidebar = () => {
         variant="ghost"
         size="sm"
         >
-            <Sheet open={isOpen} onOpenchange={onClose}>
+            <Sheet open={isOpen} onOpenChange={onClose}>
             <SheetContent
             side="left"
             className="p-2 pt-10"
